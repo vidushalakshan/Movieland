@@ -11,8 +11,19 @@ const App = () => {
   return (
     <div className="app">
       <h1>MovieLand</h1>
-    </div>
 
+      <div className="search">
+        <input
+          onChange={() => {}}
+          placeholder="Search for movies"
+        />
+        <img
+          src={SearchIcon}
+          alt="search"
+          onClick={() => {}}
+        />
+      </div>
+    </div>
   );
 };
 
